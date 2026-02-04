@@ -1,0 +1,39 @@
+# ---- Python virtual environments ----
+.venv/
+venv/
+ENV/
+env/
+
+# ---- Python cache / bytecode ----
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ---- Environment variables ----
+.env
+.env.*
+
+# ---- Logs ----
+*.log
+
+# ---- OS files ----
+.DS_Store
+Thumbs.db
+
+# ---- IDE / editor settings ----
+.vscode/
+.idea/
+*.swp
+
+# ---- Test / coverage artifacts ----
+.coverage
+htmlcov/
+.pytest_cache/
+
+# ---- Build / distribution ----
+build/
+dist/
+*.egg-info/
+
+# ---- Browser cache ----
+chrome_profile/
